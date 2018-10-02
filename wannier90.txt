@@ -1,0 +1,15 @@
+Wannier procedure:
+
+Two tracks:
+
+A. Make abinitio bands:  (required to run this procedure to set win_min win_max froz_min froz_max)
+   1. SCF (pw.x)
+   2. BANDS (pw.x)
+   3. bands plot (bands.x)
+
+B. Wannierization
+   1. SCF (pw.x)
+   2. NSCF (pw.x)
+   3. preprocess (wannier90.x -pp seedname)
+   4. PW2WAN (pw2wanner90.x)
+   5. wannier90.x seedname
