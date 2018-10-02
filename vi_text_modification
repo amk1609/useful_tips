@@ -1,0 +1,5 @@
+VI - text modification
+
+Substitution:
+
+:%s/textA/textB/g 
