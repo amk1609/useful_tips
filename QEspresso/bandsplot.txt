@@ -1,0 +1,10 @@
+input file format for bands.x
+input file description:
+http://web.mit.edu/espresso_v6.1/i386_linux26/qe-6.1/Doc/INPUT_BANDS.html
+
+&BANDS
+  prefix = 'sno'
+  outdir = './'
+  filband = 'bands.out'
+  spin_component = 1
+/ 
