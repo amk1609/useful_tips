@@ -1,4 +1,4 @@
-INPUT FILE for pw2wannier.x (from QEspresso)
+INPUT FILE for pw2wannier90.x (from QEspresso)
 
 &inputpp
    outdir = './'
